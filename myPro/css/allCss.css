@@ -1,0 +1,111 @@
+                        #header {
+                            width: 100%;
+                            height: 70px;
+                            position: relative;
+                            border-bottom: 1px solid #ccc;
+                        }
+                        
+                        #header #parent {
+                            list-style: none;
+                            text-align: center;
+                            width: 65%;
+                            height: 100%;
+                            margin: 0 0 0 250px;
+                            display: inline-block;
+                        }
+                        
+                        #header #parent:after {
+                            content: "";
+                            display: block;
+                            clear: both;
+                        }
+                        
+                        #header #parent>li {
+                            float: left;
+                            height: 100%;
+                            line-height: 72px;
+                            padding: 0 40px;
+                        }
+                        
+                        #header #parent>li a {
+                            text-decoration: none;
+                            color: #666;
+                        }
+                        
+                        #header_img {
+                            width: 90px;
+                            position: absolute;
+                            top: 5px;
+                            left: 11%;
+                        }
+                        
+                        .btn.btn_container {
+                            display: inline-block;
+                            position: absolute;
+                            top: 24%;
+                            right: 14%;
+                        }
+                        
+                        .nav.nav_show {
+                            width: 102%;
+                            height: 0px;
+                            background-color: #5b8ab5;
+                            position: absolute;
+                            top: 68px;
+                            left: -1%;
+                            transition: 0.2s linear;
+                            overflow: hidden;
+                        }
+                        
+                        .nav.nav_show ul {
+                            display: inline-block;
+                        }
+                        
+                        #header ul li:hover div {
+                            height: 300px;
+                        }
+                        
+                        #header ul li:hover {
+                            background-color: #5b8ab5;
+                        }
+                        
+                        #header ul li:hover a {
+                            color: #fff;
+                        }
+                        
+                        .btn.btn_container a {
+                            display: inline-block;
+                            width: 82px;
+                            height: 35px;
+                            margin-left: 5px;
+                            border-radius: 0.25rem;
+                            background-color: #5ebcb5;
+                            border: 1px solid #5ebcb5;
+                            text-align: center;
+                            line-height: 35px;
+                            text-decoration: none;
+                            color: #fff;
+                        }
+                        
+                        .btn.btn_container a:hover {
+                            background-color: rgba(126, 201, 196, 1);
+                        }
+                        
+                        .nav.nav_show ul {
+                            list-style: none;
+                            position: absolute;
+                            left: 300px;
+                        }
+                        
+                        .nav.nav_show ul+ul {
+                            list-style: none;
+                            position: absolute;
+                            left: 900px;
+                        }
+                        
+                        .nav.nav_show ul li {
+                            color: #fff;
+                            height: 50px;
+                            border-bottom: 1px solid #fff;
+                            width: 250px;
+                        }
